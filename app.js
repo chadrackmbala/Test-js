@@ -78,3 +78,35 @@ fahrenheit = Math.floor(fahrenheit);
 
 //Interpolation de chaîne de caractère avec la temperature.
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+
+//Initialisation de mon age
+
+const myAge = 25.6;
+
+//Initialisation de la variable ci-dessous à 2
+let earlyYears = 2;
+
+// Multiplication par l'utilisation de la variable d'affectation par 10.2
+earlyYears *= 10.5;
+console.log(earlyYears);
+
+//Soustraction de 2 dans myAge
+
+let laterYears = myAge - 2;
+console.log(laterYears);
+
+//Multiplicatio de laterYears par 4 en utilisant l'opérateur d'affectation
+
+laterYears *=4;
+console.log(laterYears);
+
+//Addition de laterYears et earlyYears
+
+let myAgeInDogYears = laterYears + earlyYears;
+console.log(myAgeInDogYears);
+
+//Utilisation de .toLowerCase pour renvoyer notre texte en minuscule
+
+let myName = 'Chadrack'
+console.log(myName.toLowerCase());
